@@ -1,15 +1,10 @@
-package Qq;
-
+package ru.vit.curs;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.vit.curs.Address;
-import ru.vit.curs.Company;
-import ru.vit.curs.Config;
-
 import static org.junit.Assert.assertEquals;
 
-public class Exa {
+public class Play {
     public static void main(String[] args) {
         System.out.println(1);
         ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
